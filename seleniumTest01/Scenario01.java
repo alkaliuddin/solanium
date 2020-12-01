@@ -10,7 +10,7 @@ public class Scenario01 {
 	private final static Double TEST_VALUE = 250.00; //Change test value for input
 	
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "D:\\Users\\Documents\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://dbankdemo.com");
 		
